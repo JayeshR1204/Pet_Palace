@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Feedback Form</title>
+  <link rel="stylesheet" href="./CSS/header.css">
+  <link rel="stylesheet" href="./CSS/footer.css">
+  <style>
+    body {
+      background-image: url('./IMG/Background/feedback\ img.jpg');
+      background-size: cover;
+      background-position: center;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 550px;
+      margin: 80px auto;
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+      width: 95%;
+      padding: 10px;
+      border-radius: 3px;
+      border: 1px solid #ccc;
+    }
+
+    .form-group textarea {
+      resize: vertical;
+      height: 100px;
+    }
+
+    .form-group button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 30px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    .form-group button:hover {
+      background-color: green;
+    }
+
+    .form-group .cancel-btn {
+      background-color: red;
+      margin-right: 10px;
+    }
+
+    .form-group .cancel-btn:hover {
+      background-color: brown;
+    }
+  </style>
+</head>
+<body>
+
+	<header>
+		<nav class="menu">
+      <div class="logo"><h1> <b style="color: red">P</b>ET <b style="color: red">P</b>ALACE </h1> </div>
+      <ul>
+          <li><a href="Index.html">Home</a></li>
+          <li>
+              <a href="#">Dogs Breeds</i></a>
+              <ul>
+                  <li><a href="./Pages/Rottweiler/Rottweiler.html">Rottweiler</a>
+              </li>
+                  <li><a href="./Pages/SiberianHusky/SiberianHusky.html">Husky</a>
+              </li>
+                  <li><a href="./Pages/Pug/Pug.html">Pug</a>
+              </li>
+                  <li><a href="./dogbreeds.html">View_More</a>
+              </li>
+              </ul>
+          </li>
+          <li>
+              <a href="#">Cats Breeds</i></a>
+              <ul>
+                  <li><a href="persian cat.html">Persian cat</a>
+              </li>
+                  <li><a href="Ragdoll.html">Ragdoll</a>
+              </li>
+                  <li><a href="bombay cat.html">Bombay</a>
+              </li>
+                  <li><a href="Cat breeds.html">View_More</a>
+              </li>
+              </ul>
+          </li>
+
+          <li>
+              <a href="#">Gallery</i></a>
+              <ul>
+                  <li><a href="Dog_Gallery.html">Dogs</a>
+              </li>
+                  <li><a href="Cat_Gallery.html">Cats</a>
+              </ul>
+          </li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+      </ul>
+  </nav>
+	
+	</header>
+
+  <div class="container">
+   <center><h1>GIVE YOUR <b style="color: green;"> FEEDBACK </b></h1><br> <h3>Feedback Form</h3> </center><br>
+    <form action="feedback.php" method="post">
+      <div class="form-group">
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first_name"  name="first_name" required>
+      </div>
+      <div class="form-group">
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last_name"  name="last_name" required>
+      </div>
+      <div class="form-group">
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="mobile">Mobile Number:</label>
+        <input type="tel" id="mobile" name="mobile" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <center><div class="form-group">
+        <button type="submit">Submit</button>
+        <button type="reset" class="cancel-btn">Cancel</button>
+      </div></center>
+    </form>
+  </div>
+  <br> <br> <footer>
+    <div class="left-nav">
+        <div class="logo">
+            <h1> <b style="color: red">P</b>ET<b style="color: red">P</b>ALACE.com </h1>
+        </div>
+            
+        <div class="copyright">
+            <p>Copyright &copy; 2023 || PetPalace.com</p>
+        </div>
+    </div>
+
+    <div class="right-nav">
+        <div class="menu">
+            <a href="#">Terms</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Cookie Policy</a>
+         </div>
+    </div>
+</footer>
+</body>
+</html>

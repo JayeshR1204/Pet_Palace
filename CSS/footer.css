@@ -1,0 +1,41 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+
+.left-nav{
+    width:60%;
+    display:flex;
+	align-items:center;
+}
+.left-nav .logo{
+	width:30%;
+    text-align:center;
+    margin:0px 5%;
+}
+
+.copyright{
+	margin:0px 10%;
+}
+
+.right-nav{
+    width:40%;
+    text-align:right;
+    margin-right:30px;
+}
+footer{
+	width:100%;
+	height: 15vh;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	text-transform: uppercase;
+	background-color: #063247;	
+	color: white;
+}
+.right-nav .menu a{
+	text-decoration:none;
+	color: grey;
+    margin-right:10px;
+}

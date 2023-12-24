@@ -1,0 +1,344 @@
+
+        body {
+            font-family: Arial, sans-serif;
+           
+        }
+        .allinfo{
+            width: 85%
+            align-items: center;
+            margin-right: 40px;
+            margin-left: 40px;  
+
+        }
+        p{
+            box-sizing: 300px;
+        }
+        .breed-card {
+            margin-top: 10px;
+            display: flex;
+            margin-bottom: 20px;
+            /* position: relative; */
+        }
+        
+        .breed-image1 {
+            margin-right: 20px;
+            margin-left: 20px;
+            margin-top: 10px;
+            padding: 5px;
+            border-style: groove;
+            /* border-style: inset; */
+            border-radius: 5%;
+            width: 300px;
+            margin-right: 20px;
+    
+        }      
+        .breed-image2 {
+            margin-top: 40px;
+            padding-top: 5px;
+            border: 5px black;
+            width: 300px;
+            margin-right: 20px;
+            position: absolute;
+            top: 20px;
+            right: 0;
+            z-index: -1;
+    
+        }      
+        .breed-info p {
+            flex-grow: 1;
+            width: 400px;
+        }
+        ,.breed-info #n{
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        
+          
+        h2 {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+
+        .info1{
+            align-items: center;
+        }
+        .footer{
+            margin-top: 30px;
+            margin-bottom: 10px;
+            padding: 5px;
+            text-align: center;
+        }
+         /* styling for the pros n cons table */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      
+      th, td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+      
+      th {
+        background-color: #f2f2f2;
+      }
+      
+      tr:hover {
+        background-color: #f5f5f5;
+      }
+
+
+        /* /for table */
+
+        .be_infobasic.first ul li {
+    min-width: 312px;
+    padding-bottom: 2px;
+}
+.be_basicInfo1 ul li {
+    list-style: none;
+    vertical-align: middle;
+    line-height: 25px;
+    font-size: 15px;
+    border-bottom: 1px solid #00807e;
+    min-width: 156px;
+    display: table-cell;
+    border-right: 1px solid #668000;
+    text-align: center;
+}
+.for-center{
+        display: flex;
+            justify-content: center;
+            align-items: center;
+    }
+* {
+    box-sizing: border-box;
+}
+user agent stylesheet
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+user agent stylesheet
+ul {
+    list-style-type: disc;
+}
+.be_basicInfo1 {
+                float: left;
+                width: 1250px;
+                border: 1px solid #668000;
+                background: #fff;
+                margin-top: 20px;
+                padding: 0
+            }
+           
+            .be_infobasic {
+                float: left
+            }
+
+            .be_infobasic:first-child {
+                width: 936px
+            }
+
+            .be_infobasic:last-child {
+                width: 312px
+            }
+
+            .be_basicInfo1 ul li.be_infoHead {
+                line-height: 30px;
+                background: #8aa71a;
+                color: #fff
+            }
+
+            .be_basicInfo1 ul li {
+                list-style: none;
+                vertical-align: middle;
+                line-height: 25px;
+                font-size: 15px;
+                border-bottom: 1px solid #668000;
+                min-width: 156px;
+                display: table-cell;
+                border-right: 1px solid #668000;
+                text-align: center
+            }
+
+            .be_basicInfo1 ul li span.fr {
+                margin: 0 10px 8px 4px;
+                font-size: 11px;
+                line-height: 15px
+            }
+
+            .be_basicInfo1 ul li.be_subhead {
+                border-top: 1px solid #668000;
+                line-height: 30px;
+                border-bottom: 0;
+                background: #d4e78a;
+                color: #363636
+            }
+
+            .be_basicInfo1 ul li span.fl {
+                clear: both;
+                margin: 0 4px 6px 10px;
+                font-size: 11px;
+                line-height: 15px
+            }
+
+            .be_detailTxt ul li span.fl {
+                clear: both;
+                margin: 4px 4px 6px 0;
+                font-size: 14px;
+                line-height: 20px;
+                width: 200px
+            }
+
+            .be_detailTxt ul li span.fr {
+                margin: 4px 10px 6px 0;
+                font-size: 14px;
+                line-height: 20px;
+                float: left
+            }
+
+            .be_rating span.fl {
+                clear: both;
+                margin: 4px 4px 6px 4px;
+                font-size: 11px;
+                line-height: 15px
+            }
+
+            .be_rating span.fr {
+                margin: 4px 4px 6px 0;
+                font-size: 11px;
+                line-height: 15px
+            }
+
+            .be_temBox1 {
+                position: absolute;
+                width: 100%;
+                font-family: nyalaregular
+            }
+
+            .be_reaBox {
+                width: 100%;
+                margin: 0 auto
+            }
+
+            .be_Ybox {
+                width: 100%;
+                margin: 5px auto;
+                color: #fff;
+                float: left;
+                font-size: 43px;
+                text-align: center;
+                text-transform: uppercase;
+                line-height: 100px;
+                font-family: nyalaregular
+            }
+
+            .font39_be {
+                font-size: 39px;
+                vertical-align: middle;
+                text-align: center;
+                padding-right: 10px
+            }
+
+            .font74_be {
+                font-size: 74px;
+                vertical-align: middle;
+                text-align: center;
+                padding-right: 10px
+            }
+
+            .font23_be {
+                display: table-cell;
+                font-size: 23px;
+                vertical-align: middle;
+                color: #fff;
+                width: 280px
+            }
+
+            .font20_be {
+                float: left;
+                font-size: 18px
+            }
+
+            .be_leftBox {
+                float: left;
+                text-align: left;
+                width: 450px
+            }
+
+            .be_leftBox li {
+                float: left;
+                font-size: 34px;
+                list-style: none;
+                margin-bottom: 60px
+            }
+
+            .be_leftBox li a {
+                padding: 5px 10px;
+                background: rgba(102,128,0,.76);
+                color: #fff;
+                box-shadow: 1px 1px 4px 0 #333;
+                float: left
+            }
+
+            .be_rytBox {
+                float: right;
+                text-align: right;
+                width: 450px
+            }
+
+            .be_rytBox li {
+                float: right;
+                font-size: 30px;
+                list-style: none;
+                margin-bottom: 60px
+            }
+
+            .be_rytBox li a {
+                padding: 5px 10px;
+                background: rgba(102,128,0,.76);
+                color: #fff;
+                box-shadow: 1px 1px 4px 0 #333;
+                float: left
+            }
+
+            .be_leftBox li a:hover,.be_rytBox li a:hover {
+                background: rgba(255,255,255,.71);
+                text-decoration: none
+            }
+
+            .be_content {
+                float: left;
+                width: 100%;
+                letter-spacing: .6px;
+                font-family: lato,sans-serif
+            }
+
+            .be_content h1 {
+                float: left;
+                width: 96%;
+                background: #eee;
+                padding: 5px 10px;
+                margin-bottom: 10px
+            }
+
+            .be_content p {
+                float: left;
+                width: 98%;
+                font-size: 14px;
+                line-height: 20px
+            }
+            {
+    width: 275px;
+}
